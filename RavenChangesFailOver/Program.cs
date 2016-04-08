@@ -61,9 +61,6 @@ namespace RavenChangesFailOver
 		/// <summary>
 		///		The main program entry-point.
 		/// </summary>
-		/// <remarks>
-		///		TODO: Keep a list of Changes APIs (in descending order of preference) and always stay subscribed to the most highly-preferred one that is currently Connected)
-		/// </remarks>
 		static void Main()
 		{
 			SynchronizationContext.SetSynchronizationContext(
